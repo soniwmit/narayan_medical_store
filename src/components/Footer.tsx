@@ -305,7 +305,7 @@ export default function Footer({ setCurrentPage, openModal, currentPage }: Foote
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
           
           <div className="text-center md:text-left space-y-1">
-            <p>© {currentYear} {BUSINESS_INFO.name}. All Rights Reserved. | <a href="https://main.webmakerit.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#0A8F6A] transition-colors underline decoration-slate-600 underline-offset-2">Developed by WMIT</a></p>
+            <p>© {currentYear} {BUSINESS_INFO.name}. All Rights Reserved. | <a href="#" class="wmit-popup-trigger">Developed by WMIT</a></p>
             <p className="text-[10px] text-slate-500">
               Pharmacy License Reg No. Active in State of Bihar | Sourced directly from authorized WHO-GMP distribution channels.
             </p>
